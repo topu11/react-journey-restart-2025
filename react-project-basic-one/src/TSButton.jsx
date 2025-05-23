@@ -1,7 +1,7 @@
 export default function TSButton() {
   return (
     <>
-      <button>Click Button</button>
+      <button className="btn btn-primary">Click Button</button>
     </>
   );
 }

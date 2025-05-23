@@ -1,16 +1,16 @@
-import TSButton from './TSButton'
-import Hello from './Hello'
+import TSButton from "./TSButton";
+import Hello from "./Hello";
 
 function App() {
-
-
   return (
     <>
-      <h1>Allah Akbar</h1>
-      <TSButton></TSButton>
-      <Hello/>
+      <div className="container">
+        <h1>Allah Akbar</h1>
+        <TSButton></TSButton>
+        <Hello />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
