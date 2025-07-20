@@ -1,7 +1,7 @@
 
 import './App.css'
 import CurrentTime from './components/CurrentTime'
-import Heading from './components/Heading.JSX'
+import Heading from './components/Heading'
 import Slogan from './components/Slogan'
 
 function App() {
