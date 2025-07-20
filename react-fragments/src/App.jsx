@@ -8,7 +8,7 @@ function App() {
         <div>Healty Foods</div>
         <ul className="list-group">
         {
-          items.map((item,index)=><li className="litst-group-item" key={index}>{strlower(item)}</li>)
+          items.map((item,index)=><li className="list-group-item" key={index}>{strlower(item)}</li>)
         }
         </ul>
       </div>
